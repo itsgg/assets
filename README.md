@@ -19,6 +19,10 @@ Release assets are published on the [Releases page](https://github.com/itsgg/ass
   - *The One Who Acts* (A life manual from the Bhagavad Gita and the Yoga Sutras)
   - *The Practical Yoga Sutras* (A manual for a steady mind and a well-lived life)
 
+## Fonts
+
+The web fonts itsgg.com uses live in [`fonts/`](fonts/), served by jsDelivr from the `fonts-v1` tag. See [fonts/README.md](fonts/README.md).
+
 ## License
 
-Textual and audio publications are released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Software artifacts inherit the license of their respective source repositories.
+Textual and audio publications are released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Software artifacts inherit the license of their respective source repositories. The fonts are under the SIL Open Font License 1.1.
