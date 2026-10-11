@@ -1,16 +1,21 @@
 # Web fonts for itsgg.com
 
-The site loads these files through jsDelivr from a tag of this repository:
+The site loads these files through jsDelivr, by the full commit hash of the
+`fonts-v1` tag:
 
 ```text
-https://cdn.jsdelivr.net/gh/itsgg/assets@fonts-v1/fonts/<file>
+https://cdn.jsdelivr.net/gh/itsgg/assets@596f0008d4dc83fd6316a116ab889bce1ec4f538/fonts/<file>
 ```
 
-A tag never changes, so jsDelivr serves them with a one-year immutable cache.
+jsDelivr serves a full commit hash with a one-year immutable cache. A tag
+name that is not a semantic version (`fonts-v1`) or a short hash gets only
+seven days, checked 2026-10-11, so the site uses the hash and the tag is
+the label for people.
+
 GitHub Pages, which hosts the site, caches every file for ten minutes, after
 which a returning visitor's browser re-checks each font and shows the
-fallback face while it waits. To change a font, add the new files under a new
-tag (`fonts-v2`) and point the site at it; never move an existing tag.
+fallback face while it waits. To change a font, add the new files, tag the commit
+`fonts-v2` and point the site at its full hash; never move an existing tag.
 
 | File | Family | Version | Covers |
 | --- | --- | --- | --- |
