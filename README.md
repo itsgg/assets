@@ -21,7 +21,7 @@ Release assets are published on the [Releases page](https://github.com/itsgg/ass
 
 ## Fonts
 
-The web fonts itsgg.com uses live in [`fonts/`](fonts/), served by jsDelivr from the full commit hash of the `fonts-v1` tag. See [fonts/README.md](fonts/README.md).
+The web fonts itsgg.com uses live in [`fonts/`](fonts/), served by jsDelivr from the full commit hash of the latest `fonts-v*` tag. See [fonts/README.md](fonts/README.md).
 
 ## License
 
