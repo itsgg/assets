@@ -23,6 +23,10 @@ Release assets are published on the [Releases page](https://github.com/itsgg/ass
 
 The web fonts itsgg.com uses live in [`fonts/`](fonts/), served by jsDelivr from the full commit hash of the latest `fonts-v*` tag. See [fonts/README.md](fonts/README.md).
 
+## Audio
+
+Audio clips embedded in itsgg.com posts live in [`audio/`](audio/), served by jsDelivr from the full commit hash of the latest `audio-v*` tag.
+
 ## License
 
 Textual and audio publications are released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Software artifacts inherit the license of their respective source repositories. The fonts are under the SIL Open Font License 1.1.
